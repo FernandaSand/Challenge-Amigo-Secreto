@@ -10,10 +10,23 @@ function agregarAmigo() {
         amigos.push (nombreAmigo);
     }
     limpiarCaja ();
+    actualizarListaAmigos ();
+
     console.log (amigos)
     return;
 }
 
 function limpiarCaja () {
     let valorCaja = document.getElementById('amigo').value='';
+}
+
+function actualizarListaAmigos () {
+    let listaHTML = document.getElementById ('listaAmigos');
+    listaHTML.innerHTML = '';
+    
+    for (let i = 0; i < amigos.length; i++) {
+    let elementoLista = document.createElement ('li');
+    elementoLista.textContent = amigos [i];
+    listaHTML.appendChild (elementoLista);
+    }
 }
