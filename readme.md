@@ -4,4 +4,4 @@ Este proyecto permite a los usuarios ingresar nombres de amigos en una lista par
 
 El usuario deberá agregar nombres mediante un campo de texto y un botón "Adicionar". Los nombres ingresados se mostrarán en una lista visible en la página, y al finalizar, un botón "Sortear Amigo" seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.
 
-<strong> Estado:</strong> en proceso
+<strong> Estado:</strong> Completado
